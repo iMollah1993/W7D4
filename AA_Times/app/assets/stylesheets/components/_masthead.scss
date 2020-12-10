@@ -46,6 +46,11 @@
 		border-right: 1px solid $light-gray;
 	}
 
+	li:last-child{
+		margin-left: 10px;
+		border-right: none;
+	}
+
 	button {
 		background: none;
 		padding: 0px;
@@ -71,4 +76,8 @@
 	strong {
 		color: green;
 	}
+}
+
+a:hover {
+	text-decoration: underline;
 }
