@@ -1,0 +1,30 @@
+.sections-links {
+    display: flex;
+    justify-content: center;
+	font-family: $sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $light-gray;
+
+	li {
+		margin-left: 20px;
+	}
+
+	span {
+        align-self: center;
+        margin-left: 15px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    
+    a:hover {
+        background-color: $light-gray;
+        text-decoration: none;
+    }
+
+    span:hover {
+        background-color: none;
+        text-decoration: underline;
+    }
+}
