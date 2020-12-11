@@ -28,3 +28,10 @@
         text-decoration: underline;
     }
 }
+
+@media all and (max-width: 1000px) {
+    .sections-links{
+      width: 100%;
+      display: none;
+    }
+  }

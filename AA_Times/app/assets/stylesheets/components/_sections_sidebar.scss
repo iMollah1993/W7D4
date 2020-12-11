@@ -1,0 +1,21 @@
+.sections-sidebar-links {
+    opacity: 1;
+}
+
+// opacity: 1 when it has the additional .expand class
+// .sections-sidebar-links {
+//     opacity: 1;
+// }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
